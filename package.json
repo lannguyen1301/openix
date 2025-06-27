@@ -1,0 +1,9 @@
+{
+    "scripts": {
+        "minify": "terser openix.js -o openix.min.js && csso openix.css -o openix.min.css"
+    },
+    "dependencies": {
+        "csso-cli": "^4.0.2",
+        "terser": "^5.43.1"
+    }
+}
